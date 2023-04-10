@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "임오 바보 멜옹";
+        return "자유 대한민국을 수호하는 애국보수 만세";
     }
 }
