@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "CI / CD 나는 해내었다!";
+        return "임오 바보 멜옹";
     }
 }
