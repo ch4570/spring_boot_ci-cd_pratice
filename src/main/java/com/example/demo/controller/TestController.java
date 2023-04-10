@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello Spring With CI / CD";
+        return "CI / CD 나는 해내었다!";
     }
 }
