@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("hello/2/{no}")
     public String hello2(@PathVariable("no") Long no) {
-        return "입력하신 번호는 " + no + " 입니다."
+        return "입력하신 번호는 " + no + " 입니다.";
     }
 
 
