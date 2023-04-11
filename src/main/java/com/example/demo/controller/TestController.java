@@ -10,6 +10,13 @@ public class TestController {
 
     @GetMapping("/hello/{name}")
     public String hello(@PathVariable("name") String name) {
-        return name.concat(" 이 요청을 시도 하였습니다.");
+        return name + "이 요청을 하였습니다.";
     }
+
+    @GetMapping("hello/2/{no}")
+    public String hello2(@PathVariable("no") Long no) {
+        return "입력하신 번호는 " + no + " 입니다.";
+    }
+
+
 }
